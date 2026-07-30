@@ -1,0 +1,39 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.usekojo.com/security
+notes: >-
+  Kojo publishes no OpenAPI, no public developer portal and no API reference, so no
+  API-level standards conformance could be derived. The only published assurance
+  posture is the SOC 2 audit described on the security page; the report is stated to
+  be available to customers and partners on request rather than published openly.
+standards:
+- id: soc2
+  conforms: true
+  evidence: >-
+    https://www.usekojo.com/security — "Our successful completion of the SOC 2 audit
+    attests to our adherence to information security practices." Report available to
+    customers and partners upon request.
+- id: iso-27001
+  conforms: false
+  evidence: not claimed on the security page
+- id: pci-dss
+  conforms: false
+  evidence: not claimed on the security page
+- id: hipaa
+  conforms: false
+  evidence: not claimed on the security page
+- id: fedramp
+  conforms: false
+  evidence: not claimed on the security page
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or documented OAuth surface
+- id: oidc
+  conforms: false
+  evidence: /.well-known/openid-configuration returned 404 on www.usekojo.com and kojo.app
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API specification to evaluate
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returned 404 on both hosts

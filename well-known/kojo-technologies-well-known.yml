@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the Kojo web and application hosts
+notes: >-
+  Kojo publishes no /.well-known/ discovery surface on either the marketing host
+  (www.usekojo.com) or the application host (kojo.app). Every probed path returned
+  404. Recorded as valid absence — no documents were saved.
+hosts:
+- host: https://www.usekojo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://kojo.app
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /llms.txt
+    status: 404

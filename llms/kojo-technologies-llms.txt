@@ -1,0 +1,39 @@
+# Kojo Technologies
+
+> Kojo Technologies (formerly Agora Systems) builds construction materials management software for trade contractors — electrical, mechanical, plumbing, concrete and specialty trades. The platform covers procurement and purchasing, field requisitions, warehouse and inventory management, tool tracking, prefab workflows, project operations, and AI-assisted accounts payable. Kojo publishes no public developer API, developer portal, or API reference as of 2026-07-19; integration is delivered through Kojo's own supplier and ERP connectors.
+
+## Product
+
+- [Kojo](https://www.usekojo.com/): Construction material management platform for trade contractors.
+- [Integrations](https://www.usekojo.com/integrations): 15+ accounting and project management connectors (Acumatica, Autodesk, CMiC, Access Coins Evo, Deltek ComputerEase, eCMS, FOUNDATION, Procore, QuickBooks Desktop, QuickBooks Online, Sage 100, Sage 300 CRE, Sage Intacct, Spectrum, Vista) plus 200+ supplier connections (Wesco, Graybar, Hajoca, Rexel, Border States, NEFCO, Mayer, Dakota Supply Group, US Electrical Services, Crawford).
+- [Enterprise](https://www.usekojo.com/enterprise): Enterprise offering for larger contractors.
+- [Pricing](https://www.usekojo.com/pricing): Plan and pricing information.
+- [Application login](https://kojo.app/login): Kojo web application sign-in.
+
+## Docs and learning
+
+- [Support](https://www.usekojo.com/support): Customer support entry point.
+- [Guides](https://www.usekojo.com/guides): Practitioner guides for construction procurement.
+- [Blog](https://www.usekojo.com/blog): Company blog.
+- [Customer stories](https://www.usekojo.com/customer-stories): Contractor case studies.
+
+## Company
+
+- [About](https://www.usekojo.com/about): Company background. Backed by Battery Ventures.
+- [Security](https://www.usekojo.com/security): Security posture; SOC 2 audit completed, report available to customers and partners on request.
+- [Terms and conditions](https://www.usekojo.com/terms)
+- [Privacy policy](https://www.usekojo.com/privacy)
+- [LinkedIn](https://www.linkedin.com/company/kojotechnologies/)
+
+## API Evangelist artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/apis.yml): Machine-readable profile of Kojo Technologies.
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/well-known/kojo-technologies-well-known.yml): Probe results — no /.well-known/ discovery surface published.
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/conformance/kojo-technologies-conformance.yml): Standards and compliance posture.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/security/kojo-technologies-domain-security.yml): TLS, HSTS, DNSSEC, SPF and DMARC probe results.
+- [Trust center](https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/security/kojo-technologies-trust-center.yml): Published certifications.
+
+## Notes for agents
+
+- There is no public Kojo API, OpenAPI definition, SDK, CLI, MCP server, or webhook catalog to call. Do not assume an api.usekojo.com or api.kojo.app endpoint — neither host resolves.
+- Automation against Kojo today runs through its packaged ERP/accounting and supplier integrations, not through a self-serve developer API.
