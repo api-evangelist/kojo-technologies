@@ -1,8 +1,28 @@
 aid: kojo-technologies
 name: Kojo Technologies
-description: Kojo Technologies is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Kojo Technologies (formerly Agora Systems) builds construction materials
+  management software for trade contractors — electrical, mechanical, plumbing, concrete
+  and specialty trades. The Kojo platform centralizes procurement and purchasing, field
+  requisitions from a mobile app, warehouse and inventory management, tool tracking,
+  prefab workflows, project operations, and AI-assisted accounts payable invoice capture
+  and matching. Kojo connects contractors to more than two hundred material suppliers
+  and integrates with fifteen-plus construction accounting and project management systems
+  including Procore, Autodesk, Sage, Acumatica, CMiC, Vista, Spectrum, FOUNDATION and
+  QuickBooks. Kojo is backed by Battery Ventures. As of this profile Kojo publishes no
+  public developer portal, API reference, or open API program — integration is delivered
+  through its own supplier and ERP connectors rather than a self-serve developer API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62729c594454f55c901fb1f2/62898aff50f59f2e5755fe30_Kojo%20Technologies.jpg
 url: https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,65 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Construction
+- Construction Technology
+- Procurement
+- Supply Chain
+- Materials Management
+- Inventory
+- Accounts Payable
+- Field Service
+- SaaS
 apis: []
+common:
+- type: TrustCenter
+  url: security/kojo-technologies-trust-center.yml
+- type: DomainSecurity
+  url: security/kojo-technologies-domain-security.yml
+- type: Website
+  url: https://www.usekojo.com/
+- type: Login
+  url: https://kojo.app/login
+- type: Pricing
+  url: https://www.usekojo.com/pricing
+- type: TermsOfService
+  url: https://www.usekojo.com/terms
+- type: PrivacyPolicy
+  url: https://www.usekojo.com/privacy
+- type: Support
+  url: https://www.usekojo.com/support
+- type: Blog
+  url: https://www.usekojo.com/blog
+- type: Security
+  url: https://www.usekojo.com/security
+- type: Compliance
+  url: https://www.usekojo.com/security
+- type: Integrations
+  url: https://www.usekojo.com/integrations
+- type: About
+  url: https://www.usekojo.com/about
+- type: Guides
+  url: https://www.usekojo.com/guides
+- type: CaseStudies
+  url: https://www.usekojo.com/customer-stories
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kojotechnologies/
+- type: WellKnown
+  url: well-known/kojo-technologies-well-known.yml
+- type: Conformance
+  url: conformance/kojo-technologies-conformance.yml
+- type: LLMsTxt
+  url: llms/kojo-technologies-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
