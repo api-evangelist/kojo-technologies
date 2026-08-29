@@ -11,6 +11,17 @@ description: 'Kojo Technologies (formerly Agora Systems) builds construction mat
   QuickBooks. Kojo is backed by Battery Ventures. As of this profile Kojo publishes no
   public developer portal, API reference, or open API program — integration is delivered
   through its own supplier and ERP connectors rather than a self-serve developer API.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
