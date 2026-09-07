@@ -68,6 +68,10 @@ tags_raw:
 - SaaS
 apis: []
 common:
+- type: HelpCenter
+  url: https://support.usekojo.com/hc/en-us
+- type: Conventions
+  url: conventions/kojo-technologies-conventions.yml
 - type: TrustCenter
   url: security/kojo-technologies-trust-center.yml
 - type: DomainSecurity
