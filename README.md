@@ -64,24 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kojo Technologies (formerly Agora Systems) builds construction materials management software for trade contractors — electrical, mechanical, plumbing, concrete and specialty trades. The platform covers procurement and purchasing, field requisitions, warehouse and inventory management, tool tracking, prefab workflows, project operations, and AI-assisted accounts payable.
+Kojo Technologies (formerly Agora Systems) builds construction materials management software for trade contractors — electrical, mechanical, plumbing, concrete and specialty trades. The Kojo platform centralizes procurement and purchasing, field requisitions from a mobile app, warehouse and inventory management, tool tracking, prefab workflows, project operations, and AI-assisted accounts payable invoice capture and matching. Kojo connects contractors to more than two hundred material suppliers and integrates with fifteen-plus construction accounting and project management systems including Procore, Autodesk, Sage, Acumatica, CMiC, Vista, Spectrum, FOUNDATION and QuickBooks. Kojo is backed by Battery Ventures. As of this profile Kojo publishes no public developer portal, API reference, or open API program — integration is delivered through its own supplier and ERP connectors rather than a self-serve developer API.
 
-Kojo connects contractors to 200+ material suppliers and integrates with 15+ construction accounting and project management systems including Procore, Autodesk, Sage, Acumatica, CMiC, Vista, Spectrum, FOUNDATION and QuickBooks.
+**Areas:** Company · Construction · Construction Technology · Procurement · Supply Chain · Materials Management · Inventory · Accounts Payable · Field Service · Software-as-a-Service
 
-- Website: https://www.usekojo.com/
-- Application: https://kojo.app/login
-- Backed by: battery-ventures
+## Kojo Technologies on APIs.io
 
-## API posture
+Everything profiled for Kojo Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kojo-technologies/](https://apis.io/providers/kojo-technologies/)** — or go straight to one of the APIs or properties below.
 
-As of 2026-07-19 Kojo publishes **no public developer portal, API reference, OpenAPI definition, SDK, CLI, MCP server, or webhook catalog**. Neither `api.usekojo.com` nor `api.kojo.app` resolves, and no `/.well-known/` discovery surface is served on either host. Integration is delivered through Kojo's own supplier and ERP connectors rather than a self-serve developer API.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Artifact | File |
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kojo Technologies Domain Security](https://apis.io/security/kojo-technologies/kojo-technologies-domain-security/)
+- [Kojo Technologies Trust Center](https://apis.io/security/kojo-technologies/kojo-technologies-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.usekojo.com/)
+- [Pricing](https://www.usekojo.com/pricing)
+- [Support](https://www.usekojo.com/support)
+- [Blog](https://www.usekojo.com/blog)
+- [Security](https://www.usekojo.com/security)
+- [Compliance](https://www.usekojo.com/security)
+- [Terms of service](https://www.usekojo.com/terms)
+- [Privacy policy](https://www.usekojo.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 22.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Well-known probe index | `well-known/kojo-technologies-well-known.yml` |
-| Conformance / compliance | `conformance/kojo-technologies-conformance.yml` |
-| Domain security probe | `security/kojo-technologies-domain-security.yml` |
-| Trust center (SOC 2) | `security/kojo-technologies-trust-center.yml` |
-| llms.txt | `llms/kojo-technologies-llms.txt` |
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 53.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kojo-technologies/](https://apis.io/providers/kojo-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kojo Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kojo-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
